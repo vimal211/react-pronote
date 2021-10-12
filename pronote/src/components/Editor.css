@@ -22,8 +22,13 @@ h3 {
   width: 650px;
   height: 80%;
   border-radius: 10px;
+  color: white;
   background-color: transparent;
   border: 5px solid rgb(70, 67, 67);
+}
+
+.input-text:focus {
+  outline: none;
 }
 
 .output-text {
