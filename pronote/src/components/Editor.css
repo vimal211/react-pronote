@@ -1,0 +1,31 @@
+* {
+  font-family: monospace;
+}
+
+.container {
+  background-color: rgb(88, 88, 243);
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.input-text,
+.output-text {
+  width: 650px;
+  height: 80%;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 5px solid rgb(70, 67, 67);
+}
+
+.output-text {
+  background-color: rgb(70, 67, 67);
+}
